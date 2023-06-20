@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: springboot-helloworld
+
+# 自定义中间件配置
+#edu:
+#  nuaa:
+#    door:
+#      enabled: true
+#      userStr: 1001,aaaa,ccc #白名单用户ID，多个逗号隔开
+
+zk:
+  whitelist:
+      users: 111,aaaa,zk #白名单用户ID，多个逗号隔开
