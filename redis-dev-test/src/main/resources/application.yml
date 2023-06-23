@@ -1,0 +1,5 @@
+server:
+  port: 8082
+redis:
+  host: 192.168.204.139
+  port: 6379

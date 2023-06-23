@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: rpc-spring-boot-starter-test-provider
+
+rpc:
+  server:
+    host: 192.168.204.138
+    port: 6379

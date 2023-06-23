@@ -6,16 +6,42 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="hystrix-dev-test" />
+        <module name="db-router-spring-boot-starter" />
         <module name="door-spring-boot-starter" />
+        <module name="rpc-spring-boot-starter-test-consumer" />
+        <module name="rpc-provider-export" />
+        <module name="redis-spring-boot-starter" />
+        <module name="ratelimiter-dev-test" />
+        <module name="ratelimiter-spring-boot-starter" />
+        <module name="methodext-dev-test" />
+        <module name="rpc-spring-boot-starter" />
+        <module name="rpc-spring-boot-starter-test-provider" />
+        <module name="hystrix-spring-boot-starter" />
         <module name="dev-test" />
         <module name="whitelist-spring-boot-starter" />
+        <module name="methodext-spring-boot-starter" />
+        <module name="redis-dev-test" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="db-router-spring-boot-starter" options="-parameters" />
       <module name="dev-test" options="-parameters" />
       <module name="door-spring-boot-starter" options="-parameters" />
+      <module name="hystrix-dev-test" options="-parameters" />
+      <module name="hystrix-spring-boot-starter" options="-parameters" />
+      <module name="methodext-dev-test" options="-parameters" />
+      <module name="methodext-spring-boot-starter" options="-parameters" />
+      <module name="ratelimiter-dev-test" options="-parameters" />
+      <module name="ratelimiter-spring-boot-starter" options="-parameters" />
+      <module name="redis-dev-test" options="-parameters" />
+      <module name="redis-spring-boot-starter" options="-parameters" />
+      <module name="rpc-provider-export" options="-parameters" />
+      <module name="rpc-spring-boot-starter" options="-parameters" />
+      <module name="rpc-spring-boot-starter-test-consumer" options="-parameters" />
+      <module name="rpc-spring-boot-starter-test-provider" options="-parameters" />
       <module name="whitelist-spring-boot-starter" options="-parameters" />
     </option>
   </component>

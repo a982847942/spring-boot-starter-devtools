@@ -7,6 +7,19 @@
         <option value="$PROJECT_DIR$/door-spring-boot-starter/pom.xml" />
         <option value="$PROJECT_DIR$/dev-test/pom.xml" />
         <option value="$PROJECT_DIR$/whitelist-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-dev-test/pom.xml" />
+        <option value="$PROJECT_DIR$/ratelimiter-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/ratelimiter-dev-test/pom.xml" />
+        <option value="$PROJECT_DIR$/methodext-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/methodext-dev-test/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-spring-boot-starter-test-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-provider-export/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-spring-boot-starter-test-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/db-router-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-dev-test/pom.xml" />
       </list>
     </option>
   </component>
