@@ -54,7 +54,7 @@ public class DataSourceAutoConfig implements EnvironmentAware {
         String dataSources = environment.getProperty(prefix + "list");
         for (String dbInfo : dataSources.split(",")) {
             Map<String, Object> dataSourceProps = PropertyUtil.handle(environment, prefix + dbInfo, Map.class);
-            dataSourceMap.put(dbInfo, dataSourceProps);
+            dataSourceMap.put(dbInfo, dataSourceProps);//db01,dataSource
         }
     }
 
