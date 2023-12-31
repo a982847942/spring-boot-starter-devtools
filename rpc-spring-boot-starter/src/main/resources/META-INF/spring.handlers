@@ -1,1 +1,1 @@
-http\://rpc.itstack.org/schema/rpc=edu.nuaa.middleware.rpc.config.spring.MyNamespaceHandler
+http\://rpc.nuaa.org/schema/rpc=edu.nuaa.middleware.rpc.config.spring.MyNamespaceHandler

@@ -17,6 +17,7 @@ import java.lang.reflect.Method;
 public class RateLimiterValve implements IValveService {
     @Override
     public Object access(ProceedingJoinPoint jp, Method method, DoRateLimiter doRateLimiter, Object[] args) throws Throwable {
+        if(doRateLimiter.permitsPerSecond() == 0)return jp.proceed();
         String clazzName = jp.getTarget().getClass().getName();
         String methodName = method.getName();
         String key = clazzName + "." + methodName;

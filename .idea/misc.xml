@@ -20,6 +20,8 @@
         <option value="$PROJECT_DIR$/db-router-spring-boot-starter/pom.xml" />
         <option value="$PROJECT_DIR$/redis-spring-boot-starter/pom.xml" />
         <option value="$PROJECT_DIR$/redis-dev-test/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-test/pom.xml" />
+        <option value="$PROJECT_DIR$/db-router-spring-boot-starter-test/pom.xml" />
       </list>
     </option>
   </component>
