@@ -17,6 +17,7 @@
         <module name="ratelimiter-dev-test" />
         <module name="ratelimiter-spring-boot-starter" />
         <module name="methodext-dev-test" />
+        <module name="lottery-db-router-spring-boot-starter" />
         <module name="rpc-spring-boot-starter" />
         <module name="rpc-spring-boot-starter-test-provider" />
         <module name="hystrix-spring-boot-starter" />
@@ -35,6 +36,7 @@
       <module name="door-spring-boot-starter" options="-parameters" />
       <module name="hystrix-dev-test" options="-parameters" />
       <module name="hystrix-spring-boot-starter" options="-parameters" />
+      <module name="lottery-db-router-spring-boot-starter" options="-parameters" />
       <module name="methodext-dev-test" options="-parameters" />
       <module name="methodext-spring-boot-starter" options="-parameters" />
       <module name="ratelimiter-dev-test" options="-parameters" />

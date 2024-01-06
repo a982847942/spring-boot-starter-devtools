@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/redis-dev-test/pom.xml" />
         <option value="$PROJECT_DIR$/blog-test/pom.xml" />
         <option value="$PROJECT_DIR$/db-router-spring-boot-starter-test/pom.xml" />
+        <option value="$PROJECT_DIR$/lottery-db-router-spring-boot-starter/pom.xml" />
       </list>
     </option>
   </component>
